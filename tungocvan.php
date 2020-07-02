@@ -23,6 +23,9 @@ define('TUNGOCVAN_INCLUDES_DIR', TUNGOCVAN_PLUGIN_DIR .'includes');
 define('TUNGOCVAN_JS_URL', TUNGOCVAN_PLUGIN_URL .'scripts/js');
 define('TUNGOCVAN_CSS_URL', TUNGOCVAN_PLUGIN_URL .'scripts/css');
 
+define( 'TNV_URI', get_template_directory_uri());
+define( 'TNV_URI_PUBLIC', TNV_URI.'/public/');
+
 require_once('lib/my-function.php');
 // require_once('lib/my-action-json.php');
 
